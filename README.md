@@ -8,18 +8,18 @@
 
 This isn't another basic BFS/DFS visualizer. This is a **teaching platform** and **experimentation sandbox** with:
 
-- ✅ **8 algorithms**: BFS, DFS, Dijkstra, A*, Bidirectional BFS, Bellman-Ford, Floyd-Warshall, Greedy Best-First
-- ✅ **Step-by-step engine** with play/pause/next/prev/rewind
-- ✅ **Live pseudocode sync** — every step highlights the executing line
-- ✅ **Comparison mode** — run two algorithms side-by-side on the same graph
-- ✅ **Heuristic playground** — A* admissibility teaching tool
-- ✅ **5 graph generators**: random, grid/maze, scale-free, adjacency list, adjacency matrix
-- ✅ **Learning mode** — step explanations in plain English
-- ✅ **Expert mode** — clean, fast, no hints
-- ✅ **Negative edges** — Bellman-Ford + cycle detection
-- ✅ **All-pairs shortest paths** — Floyd-Warshall with live NxN matrix
-- ✅ **Analytics panel** — nodes visited, edges relaxed, path cost, memory, wall time
-- ✅ **Visual encoding** — color-coded node/edge states, overlays, distance tables
+- **8 algorithms**: BFS, DFS, Dijkstra, A*, Bidirectional BFS, Bellman-Ford, Floyd-Warshall, Greedy Best-First
+- **Step-by-step engine** with play/pause/next/prev/rewind
+- **Live pseudocode sync** — every step highlights the executing line
+- **Comparison mode** — run two algorithms side-by-side on the same graph
+- **Heuristic playground** — A* admissibility teaching tool
+- **5 graph generators**: random, grid/maze, scale-free, adjacency list, adjacency matrix
+- **Learning mode** — step explanations in plain English
+- **Expert mode** — clean, fast, no hints
+- **Negative edges** — Bellman-Ford + cycle detection
+- **All-pairs shortest paths** — Floyd-Warshall with live NxN matrix
+- **Analytics panel** — nodes visited, edges relaxed, path cost, memory, wall time
+- **Visual encoding** — color-coded node/edge states, overlays, distance tables
 
 ---
 
@@ -315,28 +315,6 @@ The overlay data comes from `step.overlay["your_key"]`, which the algorithm popu
 | Graph generators | 5 (random, grid, scale-free, import) | 1 (random) |
 | Analytics | ✅ 8 metrics per run | ❌ |
 | Architecture | Clean plugin system | ❌ Monolithic |
-
----
-
-## 🎓 Interview / Resume Value
-
-When you say "I built a graph algorithm visualizer," this is what you show them:
-
-✅ **"I implemented 8 algorithms"** — not just BFS/DFS  
-✅ **"I built a step-by-step playback engine"** — not just a static display  
-✅ **"I used generator-based execution"** — shows you understand Python iterators  
-✅ **"I built a plugin system"** — shows architectural thinking  
-✅ **"I implemented comparison mode"** — shows UX design  
-✅ **"I handled negative edges"** — shows you went beyond the basics  
-✅ **"I built a Flask web app"** — full-stack skills  
-
-This is **portfolio-grade** work.
-
----
-
-## 📜 License
-
-MIT — do whatever you want with it.
 
 ---
 
